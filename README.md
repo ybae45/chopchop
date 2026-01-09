@@ -22,3 +22,14 @@ Edamam API
 ### Setup
 cd choptrack4 
 npm install
+
+
+## Contributors
+
+This project was developed collaboratively.  
+Each contributor focused on different core components of the system.
+
+- **Yoonseo** – UI/UX design, homepage development, navigation bar implementation, overall styling and layout
+- **Jiya** – Authentication system implementation (Firebase Authentication), user profile management (`userProfile` in Firestore), styling
+- **Lily** – ChopTrack feature development, user data management (`users` collection in Firebase), front-end component implementation
+- **Natalie** – ChopGuide feature design and implementation
