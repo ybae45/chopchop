@@ -1,0 +1,244 @@
+/* General Styles */
+body {
+    background-color: #f4f4f4; /* Light grey background */
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Shopping List Container */
+  h2 {
+    text-align: center;
+    color: #2c3e50; /* Dark blue-grey */
+  }
+  
+  /* List Items */
+  div {
+    margin-bottom: 10px;
+  }
+  
+  /* Add item placeholder styling (same as list items) */
+  .add-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #333; /* Black text normally */
+    transition: color 0.3s ease;
+    font-size: 1.75rem; /* Match font size of list items */
+    gap: .5rem;
+  }
+  
+  /* Hover effect for "add item" */
+  .add-item:hover {
+    color: #e67e22; /* Orange color on hover */
+  }
+  
+
+  input[type="text"] {
+    background-color: white; 
+    font-size: 1.75rem;
+    width: 100%;
+    outline: none;
+    color: #333; 
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+    /* padding-top: 15px; */
+    border-radius: 1;
+
+  }
+  
+  /* When in edit mode, add green line under input field */
+  input[type="text"]:focus {
+    border-bottom: 2px solid #2ecc71; /* Green color for the underline */
+    font-size: 1.75rem;
+    border-radius: 1;
+  }
+  
+  /* Styles for item row when editing */
+  span {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 10px;
+    color: #333;
+    transition: color 0.3s ease;
+    font-size: 2rem;
+    padding-top: 2.75rem;
+  }
+  
+  /* Hover effect for item row */
+  span:hover {
+    color: #2ecc71; /* Green color when hovering */
+  }
+  
+  /* Styling for the checkbox */
+  input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Styling for the delete button (X) */
+  .delete-button, .add-store-button {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+  }
+  
+  /* X button should turn red on hover */
+  .delete-button:hover, .add-store-button:hover {
+    color: #e74c3c; /* Red color when hovering over the X button */
+  }
+  
+  /* When an item is checked off, it will have a "checked" class */
+  .checked {
+    opacity: 0.5; /* Dim the item when checked off */
+    text-decoration: line-through; /* Strikethrough the text */
+  }
+  
+  /* Styling for store tag */
+  .store-tags-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align store tag to the right */
+    margin-left: auto; /* Ensure it takes up space on the right */
+  }
+  
+  .store-tags{
+    padding-top: 30px;
+  }
+  .store-tag {
+    background-color: #e67e22; /* Orange background */
+    color: white; /* White text on orange background */
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for store tags */
+  .store-tag:hover {
+    background-color: #2ecc71; /* Green background on hover */
+    color: white; /* Text remains white */
+  }
+  
+  /* Store input container */
+  .store-input-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .store-input-container input {
+    padding: 5px;
+    font-size: 14px;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+  
+  .save-store-button {
+    background-color: #e67e22; /* Orange button */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Save button hover effect */
+  .save-store-button:hover {
+    background-color: #2ecc71; /* Green on hover */
+  }
+  
+  /* Container for item and store tag (aligned horizontally) */
+  .item-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  /* Container for store add button */
+  .store-add {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-store-button {
+    background-color: #e67e22; /* Orange button */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Add store button hover effect */
+  .add-store-button:hover {
+    background-color: #2ecc71; /* Green on hover */
+  }
+  
+  /* Existing styles for the shopping list */
+  /* ... (Your existing CSS code here) ... */
+  
+  /* Filter Section - New Styles */
+  .filter-container {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds space between the label and the dropdown */
+  }
+  
+  /* Label for the filter */
+  .filter-container > div:first-child {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style the dropdown container */
+  .filter-container .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style the select element */
+  .filter-container .select-dropdown {
+    padding: 8px 12px;
+    font-size: 1.75rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    appearance: none; /* Remove the default dropdown arrow */
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+    width: 200px; /* Set a fixed width for better consistency */
+  }
+  
+  /* Style for the select dropdown when focused */
+  .filter-container .select-dropdown:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Custom arrow icon */
+  .filter-container .select-dropdown::-ms-expand {
+    display: none;
+  }
+  
+  .filter-container .select-dropdown:after {
+    content: '\25BC'; /* Downward arrow */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  /* Hover effect */
+  .filter-container .select-dropdown:hover {
+    border-color: #007bff;
+  }
+  

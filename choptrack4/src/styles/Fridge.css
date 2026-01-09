@@ -1,0 +1,74 @@
+/* Fridge.css */
+@font-face {
+  font-family: 'AovelSansRounded';
+  src: url('./aovel-sans-rounded-font/AovelSansRounded-rdDL.ttf');
+}
+
+* {
+  font-family: 'AovelSansRounded', sans-serif;
+}
+
+
+.Fridge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .fridge-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .calendar-container {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .grocery-list {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  /* Styling for calendar days */
+  .green-day {
+    background-color: #c8e6c9; /* Light green */
+  }
+  
+  .orange-day {
+    background-color: #ffe0b2; /* Light orange */
+  }
+  
+  /* Make sure buttons are nicely spaced */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Space from the calendar */
+  }
+  
+  .refresh-button-container {
+    margin-bottom: 10px; /* Space between the refresh button and add alert */
+  }
+  
+  .add-alert-button-container {
+    margin-top: 10px; /* Space between the buttons */
+  }

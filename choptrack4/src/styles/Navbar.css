@@ -1,0 +1,110 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../styles/aovel-sans-rounded-font/AovelSansRounded-rdDL.ttf);
+}
+
+* {
+  font-family: myFirstFont;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  background-color: #333;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  position: absolute; /* Make it independent of flexbox layout */
+  left: 1rem; /* Align logo to the far left edge */
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.menu-toggle {
+  position: absolute; /* Make it independent of the flex layout */
+  right: 1.5rem; /* Push it to the right edge with padding */
+  top: 50%;
+  transform: translateY(-50%); /* Center vertically in the navbar */
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transform: color ease 0.5s;
+}
+.menu-toggle:hover{
+  color: #8b8989
+}
+
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  opacity: 0; 
+  visibility: hidden; 
+  transition: opacity 0.3s ease, visibility 0s linear 0.3s; 
+}
+
+.dropdown-menu.open {
+  opacity: 1; 
+  visibility: visible;
+  transition: opacity 0.3s ease, visibility 0s linear 0s;
+}
+
+.dropdown-menu a,
+.dropdown-menu p {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu p:hover {
+  background: #444;
+  color: #ddd;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .navbar-logo img {
+    height: 50px;
+  }
+
+  .menu-toggle {
+    font-size: 1.8rem;
+  }
+
+  .dropdown-menu a,
+  .dropdown-menu p {
+    font-size: 1rem;
+  }
+}

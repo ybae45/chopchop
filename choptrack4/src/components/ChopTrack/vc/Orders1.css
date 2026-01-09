@@ -1,0 +1,48 @@
+/* Orders.css */
+
+/* Custom modal size (both width and height) */
+.custom-dialog .MuiDialog-paper {
+    width: 90%; /* Adjust width to your preference */
+    max-width: 900px; /* Set max width to limit the size */
+    min-height: 500px; /* Set a minimum height for the modal */
+    padding: 16px; /* Optional padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content is spaced out vertically */
+  }
+  
+  /* Title styling */
+  .dialog-title {
+    margin: 16px 0;
+    text-align: center;
+  }
+  
+  /* Styling for the uploaded image inside the modal */
+  .uploaded-image {
+    width: 100%;
+    max-width: 300px; /* Adjust size of the image */
+    object-fit: contain; /* Ensure the image is contained within the box */
+    border-radius: 8px; /* Optional, for rounded corners */
+  }
+  
+  /* Styling for the Orders container */
+  .orders {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* General styling for App container */
+  .App {
+    margin: 20px;
+  }
+  
+  /* Spacing for the buttons */
+  .MuiButton-contained {
+    margin: 10px;
+  }
+  
+  /* Ensure the file input text ("No file selected" or file name) is properly aligned */
+  .upload-section Typography {
+    margin-top: 8px; /* Add margin for spacing between button and text */
+  }
+  
