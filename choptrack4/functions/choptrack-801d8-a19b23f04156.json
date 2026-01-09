@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "choptrack-801d8",
+  "private_key_id": "a19b23f04156c7e2942e0d949f61250def8d6b41",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCN217M+mGJEv4t\nwOHtluQAffDLtwYH42JU0jQLTID3vDNddwG/fe6TnVX1vGXnRrRAAwxnf4CQ5dtw\nFh3UnVWGHZWt9iqvl1VCbODyTh1YIveKUXlpM0mS8ziyY5OMxWfnpC3Y74am1NAv\n/FMSHZ6QgcvQ7KGZDFP0S6hHIH/EKJe8L0o8GnXUusPeOa8AEk5XbzIfB9Yi+KdA\nEGcGddEPD7kUiSdy3PWaMuA3QRnixwORB+t7WjBIIJZftg/mx4QMu+pDd5ZIjKdi\nTUIqBbojmYg+tIOu81T5Uh7TfgMMKIY6WBxNEA9UsjRe4FByF7Is13SoE43UZJND\nSI/y83PNAgMBAAECggEACrOdtYDUZQWlM25CwmHY01kCQTAOblUUWOSfD1TRwZQL\nBkuhJWEv+NFiB9Q9wM1CnGCj1IFX1uE2+n/5901OQ3xNti5lE9Lqwu8up4DxRvH5\nCDreGgEH6s7apwngOqVgJxIURl0dj05B4sOE6yUyY4xIhBCnSUHsPyNfr3akxOIT\n+4iFjMUnfhJS1jcyoCeMEVPS5k6WHbdsBUuHwdgzvGLe01ZggkhD3RUczuHatmDS\n6Zmyl0o0VLvJf9xGenAIfm1hzNmToh1kJ6S8BU0ZlDSUXf66JulRrSkcf4e5q9DT\n4TfLtsFhLs8tXrry0q/t8NyfH6ZAIblpHMYx+E44IQKBgQDDKSwgPsah3DEKRVb7\n8x7RzjqSWHtbU6M/GdoOOM264D3ybV+k7iZy3kbeYonBGg5sIYH0fYsiBfU85DiS\nwocsEgU6+HBfGXIOEaz/Xh8dhyUNRyHKiKl4cQGxtC8f0bVksvp0ksAnwiLOkn1o\ntr+NMLQ/Qst/CEndhSb0A6TNLQKBgQC6FEY1k8hTcHAHsfzruMeVZXq0NoEird+t\n3f7AL801RG+eKNzOnv5u0M6vLcoSr0uwfw494KwPSv7w9W24yeeohy3rjmP3Nsh/\ncxLOElpaUXHf62Dr4sh3IOjP/LH6XfuxQ9zc1DFHzGVeobvupnXAS0hs76v+fPmg\nk7rZfLOlIQKBgHHYFKuCszA8WEcbh9BVVEcjPDuebecqdPIcTH07WZeHs9s1PjPh\n0H/1dfXIGX+RiZQ+P6a1jXH9c79fijjiTSPCJ1btEfAH0eavHPGioBgDe/Ow6N9S\ntTlTAp/88fhnxp7FYSCbcog+0TsbbRimcjsUjDDS8A5ccWpNgBmb/ojJAoGAEaBa\nBjk5gK3l7tStYKbgQQab2PZQxTgzOAUPXKUqiyEwcYrtX6Uv9M9SxMVRnvN79/wR\nHUtrAQfZnnmhKx/1EcG8V9PlJEXMOEZuQZb7eBK+9rcVN0MEOkSjyQ/mzBCbBu+m\nvERdZq+16oDnjHO4M77t3WPWpwSvoMZdrLxjSAECgYBG7Zcda6ycEHeJfewk76/d\ngUAXb0IL9YDCQfPKZmRq6Qy3uhP1TiQmnh+JjyKxoJpj1bOUdBPdbtKEbw9qDUtd\nhINVnhXn/EhX4ssMS6mI0C/D9NMe/mnP6VikB+0tTDbXDxdWKASpgoVdfMgKaWyg\nZIRk5+eEqxhlGkiY+cJ4SQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "choptrack-980@choptrack-801d8.iam.gserviceaccount.com",
+  "client_id": "110805813549543173374",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/choptrack-980%40choptrack-801d8.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
