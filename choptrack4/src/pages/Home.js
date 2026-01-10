@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import BannerImage from "../assets/cooking.jpg";
+import BannerImage from "../assets/background.jpg";
 import "../styles/Home.css";
 import { Link } from "react-router-dom";
 
