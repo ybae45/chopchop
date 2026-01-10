@@ -33,3 +33,6 @@ Each contributor focused on different core components of the system.
 - **Jiya** – Authentication system implementation (Firebase Authentication), user profile management (`userProfile` in Firestore), styling
 - **Lily** – ChopTrack feature development, user data management (`users` collection in Firebase), front-end component implementation
 - **Natalie** – ChopGuide feature design and implementation
+
+## Live Demo
+https://chopchop-seven.vercel.app
